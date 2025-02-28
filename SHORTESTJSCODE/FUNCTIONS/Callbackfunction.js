@@ -1,6 +1,6 @@
 
 // CREATE A EVENT LISTNER 
-function addEventListener(){
+function attachEventListner(){
     let count =0;
     document.getElementById("clickme")
         .addEventListener("click",function xyz(){
@@ -10,4 +10,4 @@ function addEventListener(){
     
 
 }
-addEventListener();
+attachEventListner();
